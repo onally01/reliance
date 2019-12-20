@@ -8,7 +8,7 @@ class AccountService
 {
     protected $client;
 
-    public function __construct(GuzzleClientService $client = null)
+    public function __construct(GuzzleClientService $client)
     {
         $this->client = $client;
     }
